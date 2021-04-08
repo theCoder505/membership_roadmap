@@ -97,6 +97,7 @@
     background-color: #ff5e6e;
     color: white;
     padding: 7px 25px;
+    font-weight: bold;
 }
 .stage_continue:hover{
     background-color: #27bdbc;
