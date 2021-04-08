@@ -1,0 +1,286 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+#spacer{
+    margin-top: 30px;
+}
+#header{
+    background-color: #2acac9;
+    padding: 10px;
+}
+
+.texts{
+    color: white;
+    max-width: 80%;
+    margin: auto;
+}
+
+#texting{
+    background-color: #e1e1e1;
+    padding: 5px 40px;
+    color: #616161;
+    font-weight: bold;
+}
+
+#texting2{
+    background-color: #e1e1e1;
+    padding: 5px 40px;
+    color: #616161;
+    font-weight: bold;
+}
+
+.texting_last{
+    background-color: #27bdbc!important;
+    color: white!important;
+}
+
+.holder{
+    background-color: #f9f9f9;
+    padding: 50px 0;
+    border: 5px solid #e1e1e1;
+}
+.last_holder{
+    background-color: #aaf1f0;
+    border: 5px solid #27bdbc;
+}
+.image {
+    border-radius: 50%;
+    max-width: 100px;
+    max-height: 100px;
+    border: 10px solid #fff;
+    margin: auto;
+    top: -108px;
+    position: relative;
+}
+.bgbg{
+    background-color: #fff;
+}
+.TickDiv {
+    background-color: #27bdbc;
+    font-size: 35px;
+    color: white;
+    padding: 12px 20px;
+}
+.colCard{
+    margin: 30px auto;
+    background-color: white;
+    border: 5px solid #e1e1e1;
+    text-align: center;
+}
+.colCard:hover{
+    border: 5px solid #27bdbc;
+}
+.cardName {
+    margin-top: -120px !important;
+    color: #162e44;
+    font-weight: bold;
+    text-align: center;
+    font-size: 18px;
+}
+.card-text{
+    color: #596876;
+}
+.stage{
+    background-color: #27bdbc;
+    color: white;
+    padding: 7px 25px;
+    font-weight: bold;
+}
+.stage:hover{
+    background-color: #ff5e6e;
+    color: white;
+}
+.stage_continue{
+    background-color: #ff5e6e;
+    color: white;
+    padding: 7px 25px;
+}
+.stage_continue:hover{
+    background-color: #27bdbc;
+    color: white;
+}
+.vshaped {
+    height: 100px;
+    width: 100px;
+    background-color: #e1e1e1;
+    position: relative;
+    z-index: -1;
+    margin-top: -86px;
+    transform: rotate(135deg);
+}
+
+
+
+.stage_complete {
+    border: 4px solid #f5f3f3;
+    border-radius: 30px;
+    color: #162e44;
+    padding-left: 5px;
+    font-weight: 600;
+    padding-right: 20px;
+}
+.stage_complete:hover{
+    background-color: #ff5e6e;
+    color: white;
+}
+.icon_rounded {
+    background-color: #ff5e6e;
+    color: white;
+    padding: 7px;
+    border-radius: 50%;
+    font-size: 15px;
+    margin-right: 5px;
+}
+.stage_complete:hover .icon_rounded{
+    background-color: white;
+    color: #ff5e6e;
+}
+
+.lineHr {
+    position: relative;
+    top: 160px;
+    width: 50%;
+    margin: auto;
+    background-color: #27bdbc;
+    height: 10px;
+}
+.lineHr_last{
+    background-color: #a0e2e2;
+}
+.specDiv {
+    width: 30%;
+    margin: 17px auto;
+    position: relative;
+    z-index: 10;
+}
+
+.backHashColor {
+    border-radius: 50%;
+    width: 113px;
+    height: 113px;
+    margin: auto;
+    margin-top: -56px;
+}
+
+.backHashColor{
+    background: #FFFFFF;
+    background: -webkit-linear-gradient(to top, #FFFFFF 50%, #E1E1E1 50%);
+    background: -moz-linear-gradient(to top, #FFFFFF 50%, #E1E1E1 50%);
+    background: linear-gradient(to top, #FFFFFF 50%, #E1E1E1 50%);
+}
+
+
+.colCard:hover .backHashColor{
+    background: #FFFFFF;
+    background: -webkit-linear-gradient(to top, #FFFFFF 50%, #27bdbc 50%);
+    background: -moz-linear-gradient(to top, #FFFFFF 50%, #27bdbc 50%);
+    background: linear-gradient(to top, #FFFFFF 50%, #27bdbc 50%);
+}
+
+
+.second{
+    margin-top: 35px;
+}
+
+.left_cards{
+    margin-left: 190px;
+}
+.right_cards{
+    margin-right: 190px;
+}
+
+
+
+
+.box .chart{
+    position: relative;
+}
+.chart {
+    margin-top: 22px;
+    font-weight: bold;
+    color: #ff5e6e;
+}
+
+canvas {
+    top: -45px;
+    position: relative;
+}
+
+@media screen and (max-width: 900px){
+    .specDiv {
+        width: 45%;
+        margin: 15px auto;
+    }
+    .right{
+        margin-top: 60px!important;
+    }
+    .left_cards{
+        margin-left: 0px;
+    }
+    .right_cards{
+        margin-right: 0px;
+    }
+    .stage_continue {
+        font-weight: bold;
+        font-size: 12px;
+    }
+    .btn.stage {
+        font-weight: bold;
+        font-size: 12px;
+    }
+
+}
+
+
+@media screen and (max-width: 410px){
+    .middle, .right{
+        margin-top: 60px!important;
+    }
+
+   .colCard{
+       margin: 0px;
+   }
+
+   .icon_rounded {
+    padding: 3px;
+    margin-right: 0px;
+    }
+
+    .stage_complete{
+        padding-right: 15px;
+    }
+    #texting{
+        font-size: 14px;
+    }
+    #texting2{
+        font-size: 12px;
+    }
+
+    .specDiv {
+        width: 100%;
+        margin: 15px auto;
+    }
+
+    .stage{
+        padding: 5px 20px;
+    }
+
+    .left_cards{
+        margin-left: 0px;
+    }
+    .right_cards{
+        margin-right: 0px;
+    }
+
+    .stage_continue {
+        font-weight: bold;
+        font-size: 11px;
+    }
+    .btn.stage {
+        font-weight: bold;
+        font-size: 11px;
+    }
+}
