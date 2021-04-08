@@ -165,7 +165,11 @@
     margin: auto;
     margin-top: -57px;
 }
-
+@-moz-document url-prefix(){
+    .backHashColor{
+        margin-top: -56px;
+    }
+}
 .backHashColor{
     background: #FFFFFF;
     background: -webkit-linear-gradient(to top, #FFFFFF 50%, #E1E1E1 50%);
